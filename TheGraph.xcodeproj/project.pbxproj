@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		DCB1E3482E0151E9008117B2 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DCB1E3472E0151E9008117B2 /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		DCA066582DFCDB660087C7EA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		DCA066472DFCDB640087C7EA /* TheGraph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheGraph.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCA066572DFCDB660087C7EA /* TheGraphTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheGraphTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCA066612DFCDB660087C7EA /* TheGraphUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheGraphUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB1E3472E0151E9008117B2 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,10 +80,11 @@
 		DCA0663E2DFCDB640087C7EA = {
 			isa = PBXGroup;
 			children = (
-				DCA066492DFCDB640087C7EA /* TheGraph */,
+				DCB1E3472E0151E9008117B2 /* .gitignore */,
 				DCA0665A2DFCDB660087C7EA /* TheGraphTests */,
 				DCA066642DFCDB660087C7EA /* TheGraphUITests */,
 				DCA066482DFCDB640087C7EA /* Products */,
+				DCA066492DFCDB640087C7EA /* TheGraph */,
 			);
 			sourceTree = "<group>";
 		};
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCB1E3482E0151E9008117B2 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
