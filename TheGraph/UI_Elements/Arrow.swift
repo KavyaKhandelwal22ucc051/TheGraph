@@ -14,7 +14,7 @@ struct Arrow: View {
         Image(next ? "right" : "left")
             .resizable()
             .aspectRatio(contentMode: .fit)
-            .frame(width: 60, height: 60)
+            .frame(width: 40, height: 40)
             .foregroundColor(.blue)
     }
 }
