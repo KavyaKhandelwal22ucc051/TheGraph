@@ -122,8 +122,8 @@ struct MainView: View {
                                     .font(.system(size: 30))
                                     .foregroundColor(.black)
                                     .opacity(0.65)
-                                    .scaleEffect(create ? 1 : 0)
-                                    .opacity(create ? 1 : 0)
+                                    .scaleEffect(login ? 1 : 0)
+                                    .opacity(login ? 1 : 0)
 
                             }
                             .animation(.easeOut(duration: 2), value: login)
